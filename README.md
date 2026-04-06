@@ -24,14 +24,14 @@ python main.py
 ```
 
 ## Building the Executable
-If you prefer to run VaultX as a standalone application instead of running the Python scripts, you can easily compile it into an `.exe` file using PyInstaller.
+Because the compiled standalone application size exceeds standard repository file limits, no pre-built `.exe` is provided. However, you can easily compile your own `.exe` from the source code using PyInstaller:
 
 ```bash
 pip install -r requirements.txt pyinstaller
 pyinstaller --onefile --windowed --name VaultX main.py
 ```
 
-This will generate a `VaultX.exe` file in the `dist` folder, which you can use directly. Alternatively, you can check the GitHub Releases page if a pre-compiled `.exe` has already been uploaded by the author.
+This will generate a `VaultX.exe` file inside the `dist` folder. You can then copy it to your Desktop or a USB drive and use VaultX anywhere!
 
 ## License
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this software.
